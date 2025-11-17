@@ -20,31 +20,6 @@ All code is organized to be reusable, readable, and extensible.
 
 ---
 
-## Project Structure
-
-quant-strategies/
-│
-├── data/                 # Sample datasets / cached data
-│   └── sample_data.csv
-│
-├── notebooks/            # Jupyter notebooks for exploration and analysis
-│   └── momentum_strategy.ipynb
-│
-├── src/                  # Core source code
-│   ├── init.py
-│   ├── data_loader.py    # Live market data loader (Yahoo Finance)
-│   ├── metrics.py        # Sharpe Ratio, Max Drawdown, etc.
-│   ├── utils.py          # Helper functions
-│   └── strategies/
-│       ├── init.py
-│       ├── momentum.py   # Momentum strategy logic
-│       └── mean_reversion.py
-│
-├── plots/                # Exported charts
-│   └── .gitkeep
-│
-└── README.md 
-
 
 ## Current
 
